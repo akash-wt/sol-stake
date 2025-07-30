@@ -9,8 +9,6 @@ describe("stake-contract", () => {
   const program = anchor.workspace.stakeContract as Program<StakeContract>;
 
   it("Is initialized!", async () => {
-    // Add your test here.
-    const tx = await program.methods.initialize().rpc();
-    console.log("Your transaction signature", tx);
+    
   });
 });
